@@ -1,0 +1,270 @@
+{
+    "version":1.2,
+    "cara":
+    {
+        "阿卡赛特":
+        {
+            "moe_number": 1,
+            "ani_series":"soultide",
+            "select_call":"值班吗，交给阿卡赛特吧。",
+            "moe_name":"akaset",
+            "morning_call":"睡过头了吗，没关系，今后阿卡赛特会叫你起床。",
+            "noon_call":"有阿卡赛特在，你可以放松一下。",
+            "evening_call":"不用害怕，不管隐藏在哪里的危险，阿卡赛特都能看见，都会清除。",
+            "night_call":"护你走出黑暗，带你走向曙光，这是阿卡赛特的使命，也是生存意义。"
+        },
+        "星见亚砂":
+        {
+            "moe_number": 2,
+            "ani_series": "soultide",
+            "select_call":"值日？对高中生来说，这真是司空见惯。虽然我一直都会溜。",
+            "moe_name":"Hoshi",
+            "morning_call":"我看见了。在遥远的未来，你仍旧和我并肩作战。......谢谢。",
+            "noon_call":"现在放松的话，本该邂逅的幸运也会擦肩而过。我可能正是因为一直坚持，所以才遇见了你吧。",
+            "evening_call":"唉......什么？我也是会累的啊。没关系，看着你这张傻脸就足够了。",
+            "night_call":"不想年纪轻轻就送命的话，就早点睡吧。......这不是威胁，只是所见的一种未来。"
+        },
+        "艾妮斯":
+        {
+            "moe_number": 3,
+            "ani_series": "soultide",
+            "select_call":"我会好好完成任务，长官～。",
+            "moe_name":"Ennis",
+            "morning_call":"今天的太阳也如期升起了，真耀眼啊。",
+            "noon_call":"今天的阳光真好，忍不住想松懈一下呢。",
+            "evening_call":"月亮的光辉太明亮，人们反而因此失去了星空。",
+            "night_call":"一天的结束，同时也是另一天的开始，时间和人生一样，永远没有停歇的时候。"
+        },
+        "西勒诺斯":
+        {
+            "moe_number": 4,
+            "ani_series": "soultide",
+            "select_call":"站在这里保持相对静止就好了么？",
+            "moe_name":"Silenus",
+            "morning_call":"晨昏线再次扫过我们，早上好，叠被子？不可能的，叠被子行为创造的无序度远超叠好被子创造的有序，叠被子的是徒劳的。",
+            "noon_call":"维持耗散系统必须要从环境中摄取负熵，嗯，一起去吃饭吧。",
+            "evening_call":"太阳，明天还会升起......当然，只要星球还在自转，就一定会升起的，角动量守恒。一切都会...守恒，除了那些对称性破缺的东西。",
+            "night_call":"唔......睡不着？要助眠么，不如躺在这里，来听我讲讲史瓦西解的推导吧，时空的弯曲就像是被压住凹陷下去的大腿一样......"
+        },
+        "莉莉艾洛":
+        {
+            "moe_number": 5,
+            "ani_series": "soultide",
+            "select_call":"明白！交给我吧！",
+            "moe_name":"Lilyiro",
+            "morning_call":"父亲还在的时候，我每天都会早起练剑。虽然很累，但也很开心。",
+            "noon_call":"怎么浑身破破烂烂的？！是谁干的？！告诉我，我要找他算帐。",
+            "evening_call":"母亲去世得很早，家务都是我在做。照顾你而已，很轻松的。",
+            "night_call":"还没睡？要我给你唱摇篮曲吗？"
+        },
+        "欧若拉":
+        {
+            "moe_number": 6,
+            "ani_series": "soultide",
+            "select_call":"作为公主，我一定不会让你失望的。",
+            "moe_name":"Aurora",
+            "morning_call":"勇，勇者大人？等一下，我还没起来呢......！",
+            "noon_call":"果然，问题在于体态吗，书里的公主都比我成熟。",
+            "evening_call":"昨天看到这里，公主被勇者救了出来，真好啊......勇，勇者大人？你什么时候进来的！",
+            "night_call":"眼皮都睁不开了......你要不也睡会儿？"
+        },
+        "神纳木弁天":
+        {
+            "moe_number": 7,
+            "ani_series": "soultide",
+            "select_call":"看板娘？这可是我擅长的！",
+            "moe_name":"KaminakiBenten",
+            "morning_call":"黑暗永远不会消失，但只要心怀希望，总会有光芒降临......就好像你找到了我。",
+            "noon_call":"太阳的护佑有助于恢复灵力，但也请注意，不要在那强大的温暖中迷失了自我。",
+            "evening_call":"白昼之梦已告终结，夜之真相拉开帷幕。禁断之理连接的彼岸，究竟位于何方？我们一起寻找答案吧。 ",
+            "night_call":"还醒着？想成为我的力量？......看到了吗，你们这些邪恶的妖怪！拜倒在这相爱的威光之下，乖乖被净化吧！"
+        },
+        "九华":
+        {
+            "moe_number": 8,
+            "ani_series": "soultide",
+            "select_call":"让本喵成为看板娘，你的判断能力算是一流的喵。",
+            "moe_name":"Juewa",
+            "morning_call":"猫宁......！没、没什么.....本喵只是在学习这里的文化。",
+            "noon_call":"喵呜......烤鱼......烤鱼竟然没有了喵......",
+            "evening_call":"看、看什么......本喵才没有向线团屈服......",
+            "night_call":"在这么待下去，我会越来越奇怪的喵......"
+        },
+        "南宫凛":
+        {
+            "moe_number": 9,
+            "ani_series": "soultide",
+            "select_call":"小菜一碟，交给我吧。",
+            "moe_name":"NankungLin",
+            "morning_call":"不能睡懒觉，那会使人变得软弱。",
+            "noon_call":"天气很好，如果它还在的话，一定会开心的打滚……没什么，只是以前的事而已。",
+            "evening_call":"以前看见的月亮是有阴晴圆缺的，不过现在这样也没什么不好。",
+            "night_call":"安心睡吧，要说保镖的话，我就是最强的。"
+        },
+        "叶月雪":
+        {
+            "moe_number": 10,
+            "ani_series": "soultide",
+            "select_call":"明白了，之后不要忘记支付报酬！",
+            "moe_name":"HazukiYuki",
+            "morning_call":" 试试我的新作品吗？冰碎糯米糍！破例给你免费品尝。",
+            "noon_call":"中午吃了什么，需要来一份冰品甜点吗？",
+            "evening_call":"有星星诶，以此为灵感设计新作品好了！",
+            "night_call":"我倒是不怕冷，不过你这个时候待在我身边可能会感冒哦，去睡觉吧。"
+        },
+        "叶隐琉璃":
+        {
+            "moe_number": 11,
+            "ani_series": "soultide",
+            "select_call":"明白了，交给在下吧！",
+            "moe_name":"HagakureRuri",
+            "morning_call":"嘿嘿，主公，在下今天也见到您了。",
+            "noon_call":"主公，主公，今天有任务要交给我吗？",
+            "evening_call":"主公主公，您的肚子饿吗？",
+            "night_call":"啊呼......主公，在下有点困了，好想睡觉。"
+        },
+        "安德莉亚":
+        {
+            "moe_number": 12,
+            "ani_series": "soultide",
+            "select_call":"感谢你的信任，作为出生名门的魔术师，我一定不会辜负你的期待。",
+            "moe_name":"Andrea",
+            "morning_call":"打扰了！不介意的话，今天可以让我跟着你一起出门吗...？",
+            "noon_call":"呀，手指好像被小刀划伤了，让你见笑了。不用...包扎吗？嗯，这样就可以哦。",
+            "evening_call":"为什么...要放一根竹条在屋子里？这是秘密啦，秘-密！",
+            "night_call":"夜晚比较黑，让我点根蜡烛吧。诶？你说我的手被烫着了...不是什么大问题啦..."
+        },
+        "密丝特":
+        {
+            "moe_number": 13,
+            "ani_series": "soultide",
+            "select_call":"作为一名既会唱歌，又会作战的骑士，我一定不会辜负你的期待。",
+            "moe_name":"Mist",
+            "morning_call":"唱歌？当然不会放弃。一个能够唱歌的骑士，更容易获得大家的关注。",
+            "noon_call":"郊区的那只大山猪绝对不简单，必须使用“谋略”和“奥义”胜之。",
+            "evening_call":"啦————啦————啦————啦————啦————...... ...... ...... ......",
+            "night_call":"为了守住眼下的这份和平......明天一定要加倍努力才行。"
+        },
+        "尼柯莱特":
+        {
+            "moe_number": 14,
+            "ani_series": "soultide",
+            "select_call":"真是麻烦......不过作为被‘复活’的代价，我必须完成，对吧？",
+            "moe_name":"NicoletteLamel",
+            "morning_call":"小鬼，精神不好的话我来帮你提神，要不要？",
+            "noon_call":"营养剂......味道吗？当然合普通药剂一样，想试试？",
+            "evening_call":"既然来了，就给我当临时助手吧，清洗试管会吗？",
+            "night_call":"睡不着？我这里有刚炼成的药剂......安眠药？那也算是精神控制剂的一种对吧，不过我的药剂还有一些额外的功效。"
+        },
+        "德莱洁恩":
+        {
+            "moe_number": 15,
+            "ani_series": "soultide",
+            "select_call":"无论什么命令，我都会听从。",
+            "moe_name":"Dreizehn",
+            "morning_call":"......上午好，又见到您了。",
+            "noon_call":"您终于来了......不，没有发生什么事，不用担心。",
+            "evening_call":"......天黑了，但是我依然可以看清您的摸样。",
+            "night_call":"您睡不着吗？可是我不会讲故事......对不起。"
+        },
+        "朔耶真子":
+        {
+            "moe_number": 16,
+            "ani_series": "soultide",
+            "select_call":"汝可真有眼光，吾可以招财！",
+            "moe_name":"SakuyaMako",
+            "morning_call":"团子给汝好了，毕竟吾是神明...什么，开玩笑？汝可真是...不错呢！",
+            "noon_call":"又有任务啊...可以让狸猫替吾出门吗？不行啊...",
+            "evening_call":"偶尔一次也是可以的，晚些打烊，一起说说话...",
+            "night_call":"是嘛，也许汝和吾很像呢...没关系，只要有吾在，汝一定会做个好梦吧。"
+        },
+        "柯露雪儿":
+        {
+            "moe_number": 17,
+            "ani_series": "soultide",
+            "select_call":"是。虽说我是王女，但工作还是要好好完成。",
+            "moe_name":"Colcher",
+            "morning_call":"在小床上醒来，叠完被子开始新的一天。这样普通的日子真美好，何况还有你在。",
+            "noon_call":"不管旅途多么漫长危险，我一定会陪伴您。",
+            "evening_call":"和您在一起，比豪华的宴会更让我满足。",
+            "night_call":"再熬夜，就要对您施睡眠魔法了哦。"
+        },
+        "爱莉莎":
+        {
+            "moe_number": 18,
+            "ani_series": "soultide",
+            "select_call":"看板娘？中间……可以偷偷看书吗？",
+            "moe_name":"Alisa",
+            "morning_call":"早餐的时候阅读“深夜怪谈”，这对优秀的创作者来说是常识。",
+            "noon_call":"优雅……一定要秉持优雅……",
+            "evening_call":"投稿的时候，竟然被要求划分在儿童区域……这是对创作者作品的打压！",
+            "night_call":"又被退稿了啊，是不是地址填错了啊……"
+        },
+        "米涅德温":
+        {
+            "moe_number": 19,
+            "ani_series": "soultide",
+            "select_call":"居然让我做这种事……我可以睡觉吧。",
+            "moe_name":"Minerdwen",
+            "morning_call":"来了？早饭没有，但可以把刚写好的东西读给你听。虽然一大早的，口味可能有点重。",
+            "noon_call":"这时间最适合睡觉。但为了你，我就醒着吧。",
+            "evening_call":"夜晚的妖怪？没什么好怕的。哪有怪物能胜过本吸血鬼啊。",
+            "night_call":"是有那么个女人，为了活命，每天晚上都在讲故事，讲了一千零一夜吧？以人类来说，真是不得了。"
+        },
+        "芙丽希娅":
+        {
+            "moe_number": 20,
+            "ani_series": "soultide",
+            "select_call":"值日？没问题，我已经习惯一个人努力了！",
+            "moe_name":"Freesia",
+            "morning_call":"醒来之后，发现自己在这间能看见海的小房子，身边还有你。真开心啊。",
+            "noon_call":"旅行？寻宝？我会收获很多的，你就期待着吧。",
+            "evening_call":"美丽的花朵，闪烁的星星，多美好的夜晚啊。",
+            "night_call":"你见过夜来香吗？会在半夜散发出很甜美的味道。你知道它的花语是什么吗？"
+        },
+        "萨缇娅":
+        {
+            "moe_number": 21,
+            "ani_series": "soultide",
+            "select_call":"让本恶魔做这种事情，你在开玩笑吗？",
+            "moe_name":"Satya",
+            "morning_call":"哼，跪下来亲吻我的脚尖吧。",
+            "noon_call":"这种天气最合适的事情，是杀戮游戏。",
+            "evening_call":"哼，特别恩赐你和本恶魔共进午餐吧。",
+            "night_call":"刚吃过晚饭?"
+        },
+        "蕖灵":
+        {
+            "moe_number": 22,
+            "ani_series": "soultide",
+            "select_call":"......这倒新鲜，我来试试也无妨。",
+            "moe_name":"QuLing",
+            "morning_call":"等候多时，你去了何处，怎么才来？无事......习惯使然，你不在总觉少了什么。",
+            "noon_call":"午睡过后不易醒来？嗯，过来一点，我有一道提神之法......",
+            "evening_call":"月上柳稍头，人约黄昏后......小孩，你是来赴约的？",
+            "night_call":"深夜不睡，你可是寂寞了？无妨，我一直都在这里。"
+        },
+        "薇姬娜":
+        {
+            "moe_number": 23,
+            "ani_series": "soultide",
+            "select_call":"好的，交给我吧。",
+            "moe_name":"Virgina",
+            "morning_call":"......头发睡乱的样子，挺可爱的呢。",
+            "noon_call":"要午睡吗？我的大腿借给你当枕头吧。",
+            "evening_call":"我试着准备了烛光晚餐......",
+            "night_call":"一起赏月吗？"
+        },
+        "迦瓦娜":
+        {
+            "moe_number": 24,
+            "ani_series": "soultide",
+            "select_call":"知道了，交给我吧。",
+            "moe_name":"Gawana",
+            "morning_call":"早上好，你看起来精神不错。",
+            "noon_call":"你今天来得比平时晚啊，被什么耽误了吗?",
+            "evening_call":"……要一起吃东西吗?这可不是邀请，只是时间正好而已。",
+            "night_call":"睡不着?你也听到风吹过原野的声音了吗……"
+        }
+    }
+}
