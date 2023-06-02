@@ -199,20 +199,20 @@ async def _(bot: Bot,event: MessageEvent,choose_cara_name : str = ArgPlainText()
 #打招呼
 @timing.scheduled_job("cron", hour='7', minute='00', id="good_morning",max_instances=10)
 async def _():
-    await time_eng.good_morning()
+    await time_eng.greeting("morning_call")
     await asyncio.sleep(randint(2, 5))
 
 @timing.scheduled_job("cron", hour='14', minute='00',id="good_afternoon",max_instances=10)
 async def _():
-    await time_eng.good_afternoon()
+    await time_eng.greeting("noon_call")
     await asyncio.sleep(randint(2, 5))
 
 @timing.scheduled_job("cron", hour='19', minute='00',id="good_evening",max_instances=10)
 async def _():
-    await time_eng.good_evening()
+    await time_eng.greeting("evening_call")
     await asyncio.sleep(randint(2, 5))
 
 @timing.scheduled_job("cron", hour='00', minute='00', id="good_night",max_instances=10)
 async def _():
-    await time_eng.good_night()
+    await time_eng.greeting("night_call")
     await asyncio.sleep(randint(2, 5))

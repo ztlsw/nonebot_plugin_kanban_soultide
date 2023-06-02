@@ -55,7 +55,7 @@ class TIME_ENG:
             self.used_in_member : List[str]=json_lim.get("used_in_member")
         self.open_group_file_ok=1
     
-    async def good_morning(self):
+    async def greeting(self, call_type: str):
         bot: Bot = get_bot()
         if not self.open_cara_file_ok:
             self.open_cara_file()
@@ -69,66 +69,7 @@ class TIME_ENG:
             cara_num: int=self.dict_used_in_group.get(gp_id)
             cara_name: str=self.cara_list[cara_num-1]
             lim_dict : dict[str:str]=self.cara_dict.get(cara_name)
-            lim_str : str=  lim_dict.get("morning_call")
-            try:
-                await bot.send_group_msg(group_id=int(gp_id),message=lim_str)
-            except:
-                await bot.send_group_msg(group_id=int(gp_id),message="呜呜，发不出来")
-        
-        for us_id in self.used_in_member:
-            cara_num: int=self.dict_used_in_member.get(us_id)
-            cara_name: str=self.cara_list[cara_num-1]
-            lim_dict : dict[str:str]=self.cara_dict.get(cara_name)
-            lim_str : str=  lim_dict.get("morning_call")
-            try:
-                await bot.send_private_msg(user_id=int(us_id),message=lim_str)
-            except:
-                await bot.send_private_msg(user_id=int(us_id),message="呜呜，发不出来")
-
-    async def good_afternoon(self):
-        bot: Bot = get_bot()
-        if not self.open_cara_file_ok:
-            self.open_cara_file()
-            self.open_cara_file_ok=1
-
-        if not self.open_group_file_ok:
-            self.open_group_file()
-            self.open_group_file_ok=1
-
-        for gp_id in self.used_in_group:
-            cara_num: int = self.dict_used_in_group.get(gp_id)
-            cara_name: str = self.cara_list[cara_num-1]
-            lim_dict: dict[str:str] = self.cara_dict.get(cara_name)
-            lim_str: str = lim_dict.get("noon_call")
-        try:
-            await bot.send_group_msg(group_id=int(gp_id),message=lim_str)
-        except:
-            await bot.send_group_msg(group_id=int(gp_id),message="呜呜，发不出来")
-
-        for us_id in self.used_in_member:
-            cara_num: int = self.dict_used_in_member.get(us_id)
-            cara_name: str = self.cara_list[cara_num-1]
-            lim_dict: dict[str:str] = self.cara_dict.get(cara_name)
-            lim_str: str = lim_dict.get("noon_call")
-            try:
-                await bot.send_private_msg(user_id=int(us_id),message=lim_str)
-            except:
-                await bot.send_private_msg(user_id=int(us_id),message="呜呜，发不出来")
-
-
-    async def good_evening(self):
-        bot: Bot = get_bot()
-        if not self.open_cara_file_ok:
-            self.open_cara_file()
-            self.open_cara_file_ok=1
-        if not self.open_group_file_ok:
-            self.open_group_file()
-            self.open_group_file_ok=1
-        for gp_id in self.used_in_group:
-            cara_num: int=self.dict_used_in_group.get(gp_id)
-            cara_name: str=self.cara_list[cara_num-1]
-            lim_dict : dict[str:str]=self.cara_dict.get(cara_name)
-            lim_str : str=  lim_dict.get("evening_call")
+            lim_str : str=  lim_dict.get(call_type)
             try:
                 await bot.send_group_msg(group_id=int(gp_id),message=lim_str)
             except:
@@ -138,37 +79,7 @@ class TIME_ENG:
             cara_num: int=self.dict_used_in_member.get(us_id)
             cara_name: str=self.cara_list[cara_num-1]
             lim_dict : dict[str:str]=self.cara_dict.get(cara_name)
-            lim_str : str=  lim_dict.get("evening_call")
-            try:
-                await bot.send_private_msg(user_id=int(us_id),message=lim_str)
-            except:
-                await bot.send_private_msg(user_id=int(us_id),message="呜呜，发不出来")
-
-    async def good_night(self):
-        bot: Bot = get_bot()
-        if not self.open_cara_file_ok:
-            self.open_cara_file()
-            self.open_cara_file_ok=1
-
-        if not self.open_group_file_ok:
-            self.open_group_file()
-            self.open_group_file_ok=1
-            
-        for gp_id in self.used_in_group:
-            cara_num: int=self.dict_used_in_group.get(gp_id)
-            cara_name: str=self.cara_list[cara_num-1]
-            lim_dict : dict[str:str]=self.cara_dict.get(cara_name)
-            lim_str : str=  lim_dict.get("night_call")
-        try:
-            await bot.send_group_msg(group_id=int(gp_id),message=lim_str)
-        except:
-            await bot.send_group_msg(group_id=int(gp_id),message="呜呜，发不出来")
-
-        for us_id in self.used_in_member:
-            cara_num: int=self.dict_used_in_member.get(us_id)
-            cara_name: str=self.cara_list[cara_num-1]
-            lim_dict : dict[str:str]=self.cara_dict.get(cara_name)
-            lim_str : str=  lim_dict.get("night_call")
+            lim_str : str=  lim_dict.get(call_type)
             try:
                 await bot.send_private_msg(user_id=int(us_id),message=lim_str)
             except:
